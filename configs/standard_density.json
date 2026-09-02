@@ -1,0 +1,39 @@
+{
+    "ROAD_LENGTH_M": 2000.0,
+    "RSU_POS_M": 1000.0,
+    "V2I_RANGE_M": 450.0,
+    "V2V_RANGE_M": 250.0,
+    "NUM_SERVICE_VEH": 4,
+    "NUM_MODELS": 10,
+    "MODEL_SIZE_MB": [
+        50.0,
+        200.0
+    ],
+    "SV_STORAGE_MB": 380.0,
+    "SV_CACHE_COUNT": 3,
+    "F_RSU_MAX_GHZ": 24.0,
+    "F_SV_MAX_GHZ": 6.0,
+    "F_LOCAL_GHZ": 1.2,
+    "BW_TOTAL_MHZ": 20.0,
+    "TX_POWER_W": 0.5,
+    "NOISE_POWER_W": 1e-13,
+    "PATHLOSS_ALPHA": 3.0,
+    "REF_DIST_M": 1.0,
+    "REF_GAIN": 0.001,
+    "TASK_DATA_MB": [
+        1.0,
+        6.0
+    ],
+    "TASK_CYCLES_MC": [
+        500.0,
+        2500.0
+    ],
+    "TASK_DEADLINE_S": [
+        0.4,
+        2.2
+    ],
+    "AO_MAX_ITERS": 7,
+    "AO_TOL_S": 0.0001,
+    "BNB_NODE_CAP": 15000,
+    "EPS": 1e-06
+}
